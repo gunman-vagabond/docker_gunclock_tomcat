@@ -3,7 +3,7 @@
 Dockerfile for gunclock on tomcat.
 
 ## build command 
-    $ git clone https://github.com/gunman-vagabond/docker_gunclock_tomcat
+    $ git clone https://github.com/gunman-vagabond/docker_gunclock_tomcat.git
     $ cd docker_gunclock_tomcat
     $ docker image build -t gunclock_tomcat .
     $ docker run -p 28080:8080 gunclock_tomcat
