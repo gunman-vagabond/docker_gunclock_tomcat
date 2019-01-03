@@ -14,7 +14,12 @@ Dockerfile for gunclock on tomcat.
 
     https://cloud.docker.com/repository/docker/gunman/gunclock_tomcat/
 
-- docker run command
+- docker run command (example)
 
     $ docker run -p 28080:8080 gunman/gunclock_tomcat
+
+- access (example)
+
+    http://xxxxxxx:28080/gunclock/gunclock
+
 
