@@ -22,4 +22,14 @@ Dockerfile for gunclock on tomcat.
 
     http://xxxxxxx:28080/gunclock/gunclock
 
+## kubernates
+
+- usage
+
+    $ kubectl create -f https://raw.githubusercontent.com/gunman-vagabond/kubernates_gunclock_tomcat/master/gunman_tomcat.yaml
+
+
+- github
+
+    https://github.com/gunman-vagabond/kubernates_gunclock_tomcat
 
