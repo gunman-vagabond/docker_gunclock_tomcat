@@ -6,7 +6,7 @@ Dockerfile for gunclock on tomcat.
     $ git clone https://github.com/gunman-vagabond/docker_gunclock_tomcat.git
     $ cd docker_gunclock_tomcat
     $ docker image build -t gunclock_tomcat .
-    $ docker run -p 28080:8080 gunclock_tomcat
+    $ docker run -p 30080:8080 gunclock_tomcat
 
 ## Docker image on Docker Hub
 
@@ -16,11 +16,11 @@ Dockerfile for gunclock on tomcat.
 
 - docker run command (example)
 
-    $ docker run -p 28080:8080 gunman/gunclock_tomcat
+    $ docker run -p 30080:8080 gunman/gunclock_tomcat
 
 - access (example)
 
-    http://xxxxxxx:28080/gunclock/gunclock
+    http://xxxxxxx:30080/gunclock/gunclock
 
 ## kubernates
 
