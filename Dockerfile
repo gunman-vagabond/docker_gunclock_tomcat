@@ -5,3 +5,4 @@ ADD gunclock.war /usr/local/tomcat/webapps/gunclock.war
 CMD ["catalina.sh", "run"]
 
 EXPOSE 8080
+EXPOSE 443
